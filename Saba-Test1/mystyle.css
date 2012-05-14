@@ -22,12 +22,11 @@ div.menu{
 	
 }
 	
-div.menu ul{
+div.menu > ul{
 	list-style-type:none;
-	width:480px;
+	width:510px;
 	margin:0 auto;
-	outline:0px solid red;
-	height:40px
+	height:40px;
 	
 }
 div.menu li:first-child{
@@ -37,7 +36,7 @@ div.menu li:first-child{
 div.menu li{
 	float:left;
 	margin-right:15px;
-		
+	position:relative;	
 	border-bottom-left-radius:10px;
 	border-bottom-right-radius:10px;
 	border-top-left-radius:10px;
@@ -93,12 +92,42 @@ div.menu a{
 	font-size:18px;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
+div.menu li ul{
+	list-style-type:none;
+	display:none;
+	position:absolute;
+	min-width::100%;
+	border-top:3px solid transparent;
+}
+div.menu li:hover ul{
+	display:block;
+	cursor:pointer;
+	
+}
+
+div.menu li li{
+	float:none;	
+	background-color:#CCCCCC;
+	margin-top:5px;
+	-webkit-transition-duration: 1800ms;	
+	-moz-transition-duration: 1800ms;	
+	-ms-transition-duration: 1800ms;	
+	-o-transition-duration: 1800ms;
+}
+div.menu li li:hover{
+	-webkit-transition-duration: 1800ms;	
+	-moz-transition-duration: 1800ms;	
+	-ms-transition-duration: 1800ms;	
+	-o-transition-duration: 1800ms;
+}
+
 												/*End Of Menu */
 												
 												
 												/*  Slide Bar*/
 div .slidebar{
-	margin-top:15px;
+	margin-top:250px;
 	outline:0px solid red;
 	height:340px;
 
