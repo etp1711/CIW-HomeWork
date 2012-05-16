@@ -18,8 +18,8 @@ body{
 /*  MENU */
 div.menu{
 	height:38px;
-	background-color:#333333;
-	
+	background-color:#3b3b3b;
+	border-radius:10px;
 }
 	
 div.menu > ul{
@@ -99,6 +99,11 @@ div.menu li ul{
 	position:absolute;
 	min-width::100%;
 	border-top:3px solid transparent;
+	z-index:4;
+	-webkit-transition-duration: 350ms;
+	-moz-transition-duration: 350ms;
+	-ms-transition-duration: 350ms;
+	-o-transition-duration: 350ms;
 }
 div.menu li:hover ul{
 	display:block;
@@ -108,30 +113,33 @@ div.menu li:hover ul{
 
 div.menu li li{
 	float:none;	
-	background-color:#CCCCCC;
+	background-color:#333333;
 	margin-top:5px;
-	-webkit-transition-duration: 1800ms;	
-	-moz-transition-duration: 1800ms;	
-	-ms-transition-duration: 1800ms;	
-	-o-transition-duration: 1800ms;
+	-webkit-transition-duration: 350ms;
+	-moz-transition-duration: 350ms;
+	-ms-transition-duration: 350ms;
+	-o-transition-duration: 350ms;
 }
-div.menu li li:hover{
-	-webkit-transition-duration: 1800ms;	
-	-moz-transition-duration: 1800ms;	
-	-ms-transition-duration: 1800ms;	
-	-o-transition-duration: 1800ms;
-}
+/*div.menu li li:hover{
+	-webkit-transition-duration: 350ms;
+	-moz-transition-duration: 350ms;
+	-ms-transition-duration: 350ms;
+	-o-transition-duration: 350ms;
+}  */
 
 												/*End Of Menu */
 												
+									
+									
 												
 												/*  Slide Bar*/
 div .slidebar{
-	margin-top:250px;
-	outline:0px solid red;
+	margin-top:15px;
 	height:340px;
-
+	border-radius:10px;
 }
+							
+							
 												/*Lef Of Slide */	
 div .slidebar .leftslide{
 	width:720px;
@@ -156,28 +164,24 @@ div .slidebar .leftslide .train div{
 div .slidebar .leftslide .train div img{
 	display:block;
 }
+
+
 												/* Right Of Slide */
+												
 div .slidebar .rightslide{
-	outline:0px solid red;
-	margin-left:720px;
+	margin-left:735px;
 	height:340px;
-	
 }
-div .slidebar .rightslide ul{
-	list-style-type:none;	
-	width:230px;
-}
-div .slidebar .rightslide li{
-	margin-bottom:2px;	
-		
-}
-div .slidebar .rightslide li:hover{
-	opacity:0.5;	
-	background-color:#666666;
+div .slidebar .rightslide div{
+	width:215px;
+	height:75px;	
 	cursor:pointer;
-	
+	margin-bottom:13px;
 }
+
 										/*  END OF SLIDE */
+									
+									
 									
 									
 									/*  MIDDLE  */
@@ -185,7 +189,6 @@ div .middle{
 	width:948px;
 	margin-top:15px;
 	padding:0 12px;
-	border:0px solid red;
 }
 div .middle .aboutus{
 	float:left;
@@ -193,18 +196,19 @@ div .middle .aboutus{
 }
 div .middle .news{
 	float:left;
-	margin-left:24px;
+	margin-left:12px;
 }
 div .middle .download{
-	margin-left:648px;
-	position:absolute;
-	
+	margin-left:624px;
 }
+
 div .middle .download, .news, .aboutus{
 	background-color:#3b3b3b;
 	text-align:right;	
 	width:300px;
 	height:230px;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
 }
 div .middle h2{
 	margin-right:20px;	
@@ -232,6 +236,7 @@ div .middlefooter  a{
 	-moz-transition-delay:100ms;
 	-ms-transition-delay:100ms;
 	-o-transition-delay:100ms;
+	
 }
 div .middlefooter  a:hover {
 	background-color:#FFF;
@@ -284,20 +289,16 @@ div .middlefooter .middlefooter1, .middlefooter2, .middlefooter3 {
 	width:300px;		
 	background-color:#3b3b3b;
 	height:30px;
-	border:0px solid red;
-	
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
 }
-
 div .middlefooter1{
 	float:left;
-	
 }
 div .middlefooter2{
 	float:left;
-	margin-left:24px
-	
+	margin-left:12px
 }
 div .middlefooter3{
-	margin-left:648px;
-	z-index:1;
+	margin-left:624px;
 }
