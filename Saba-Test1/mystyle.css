@@ -174,12 +174,37 @@ div .slidebar .rightslide div{
 	cursor:pointer;
 	margin-bottom:13px;
 }
-
 										/*  END OF SLIDE */
-									
-									
-									
-									
+
+										/*   Accountable  system 	*/							
+div .account{
+	margin-top:15px;
+	text-align:center;
+}								
+div .account a{	
+	text-decoration:none;
+	color:#333333;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:30px;
+	font-style:normal;
+	font-weight:bold;
+	vertical-align:central;
+	background-color:#cfced4;
+	padding:1px 28px;
+	border-radius:22px;
+	-webkit-transition-delay:300ms;
+	-moz-transition-delay:300ms;
+	-ms-transition-delay:300ms;
+	-o-transition-delay:300ms;
+}							
+div .account a:hover{		
+	background-color:#333333;
+	color:#cfced4;
+	-webkit-transition-delay:300ms;
+	-moz-transition-delay:300ms;
+	-ms-transition-delay:300ms;
+	-o-transition-delay:300ms;
+}
 									/*  MIDDLE  */
 div .middle{
 	width:948px;
@@ -323,7 +348,7 @@ div .contact .textcontact {
 	margin-top:15px;
 }
 div .contact .textcontact h3{
-	color:#B2B2B2;
+	color:#333333;
 	font-size:50px;
 	font-style:italic;
 	margin-left:65px;
@@ -396,3 +421,56 @@ div .contact .left .button input:hover{
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	font-size:15px;
 }
+
+/*   End Of  Contact  Page */
+
+
+
+												
+div .frame {				/*  Star A B O U T--U S */
+	width:800px;
+	height:700px;
+	border:0px solid red;	
+	margin:0 auto;
+	margin-top:50px;
+}
+
+div .frame p{
+	direction:rtl;	
+	text-align:right;
+	margin-right:25px;
+	font-family:"Times New Roman", Times, serif;
+	color:#333333;
+}
+div .frame span{
+	margin-right:40px;	
+}
+div .frame .endtext{
+	text-align:center;	
+}
+div .frame a{
+	margin-left:30px;
+	color:#FFF;	
+	padding:3px 12px;
+	background-color:#0596cf;
+	text-decoration:none;
+	font-size:17px;	
+	font-weight:700;
+	font-family:Verdana, Geneva, sans-serif;
+	border:6px solid #0596cf;
+	border-radius:10px;	
+	-webkit-transition-delay:100ms;
+	-moz-transition-delay:100ms;
+	-ms-transition-delay:100ms;
+	-o-transition-delay:100ms;	
+}
+
+div .frame a:hover{
+	background-color:#FFF;
+	color:#333;
+	border:8px solid #FFF;
+	-webkit-transition-delay:100ms;
+	-moz-transition-delay:100ms;
+	-ms-transition-delay:100ms;
+	-o-transition-delay:100ms;	
+}															/*  End Of A B O U T--U S */
