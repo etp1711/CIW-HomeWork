@@ -120,12 +120,7 @@ div.menu li li{
 	-ms-transition-duration: 350ms;
 	-o-transition-duration: 350ms;
 }
-/*div.menu li li:hover{
-	-webkit-transition-duration: 350ms;
-	-moz-transition-duration: 350ms;
-	-ms-transition-duration: 350ms;
-	-o-transition-duration: 350ms;
-}  */
+
 
 												/*End Of Menu */
 												
@@ -137,6 +132,7 @@ div .slidebar{
 	margin-top:15px;
 	height:340px;
 	border-radius:10px;
+	
 }
 							
 							
@@ -200,6 +196,7 @@ div .middle .news{
 }
 div .middle .download{
 	margin-left:624px;
+	
 }
 
 div .middle .download, .news, .aboutus{
@@ -212,7 +209,7 @@ div .middle .download, .news, .aboutus{
 }
 div .middle h2{
 	margin-right:20px;	
-	margin-top:10px;
+	margin-top:5px;
 	color:#FFF;
 }
 div .middle p{
@@ -301,4 +298,101 @@ div .middlefooter2{
 }
 div .middlefooter3{
 	margin-left:624px;
+}
+
+/*   C O N T A C T    P A G E    */
+
+div .contact{
+	width:890px;
+	height:600px;
+	border:0px solid red;
+	margin:0 auto;
+	margin-top:50px;
+	padding:30px 0;
+}
+
+div .contact .left{
+	float:left;
+	margin-left:30px;
+}
+div .contact .right{
+	margin-left:460px;
+}
+/*  Left   Contact   */
+div .contact .textcontact {
+	margin-top:15px;
+}
+div .contact .textcontact h3{
+	color:#B2B2B2;
+	font-size:50px;
+	font-style:italic;
+	margin-left:65px;
+}
+div .contact .left .textcontact, .name, .email, .button, .messege{
+	margin:15px auto;
+	margin-bottom:16px;
+}
+div .contact .left .name {
+	margin-top:45px;
+}
+div .contact .left .name input, .email input{            /*  NAME    &      Email     */
+	width:300px;
+	height:33px;	
+	margin-left:40px;
+	border-radius:10px;
+	border:2px inset #CCC;
+}
+div .contact .left .messege textarea{
+	width:315px;
+	height:175px;
+	margin-left:40px;
+	border-radius:10px;
+	border:2px inset #CCC;
+}
+div .contact .left .button .reset{  
+	margin-left:9px;
+}
+div .contact .left .button input{  
+	margin-left:39px;                   		  /*    SEND     BUTTON  */  
+	width:100px;
+	height:40px;	
+	font-size:18px;
+	border: 3px outset #555;
+	border-radius:10px;
+	background-color:#222;
+	color:#fff;
+	-webkit-transition:100ms;
+	-moz-transition:100ms;
+	-ms-transition:100ms;
+	-o-transition:100ms;
+}
+div .contact .left .button input:hover{
+	background-color:#ddd;
+	border: 3px outset #fff;
+	color:#000;
+	cursor:pointer;
+	-webkit-transition:100ms;
+	-moz-transition:100ms;
+	-ms-transition:100ms;
+	-o-transition:100ms;
+}
+   /*   End Of Left Part */
+ div .contact .right .googlepic{
+	 margin-top:45px;
+}  
+ div .contact .right .googlepic img{
+	border-radius:10px; 
+}
+ div .contact .right .infoemail{
+	 margin-top:5px;
+	 margin-left:10px;
+}
+ div .contact .right .tel{
+	 margin-top:10px;
+	 margin-left:10px;
+}
+ div .contact .right h4{
+	color:#222222; 
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:15px;
 }
