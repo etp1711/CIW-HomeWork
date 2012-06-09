@@ -1,0 +1,177 @@
+body{
+	direction:rtl;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+a{
+	text-decoration:none;	
+	color:#000;
+}
+div{
+	outline:0px solid red;	
+}
+#parent-container{
+	margin:0 auto;
+	background-image:url(images/sample1.jpg);
+	background-repeat:no-repeat;
+	width:950px;
+	min-height:1000px;
+	outline:1px solid red;	
+	
+}
+#top-shadow{
+	width:950px;
+	height:8px;
+	background-color:#322326;
+}
+/*---------------------------MenuBar--------------*/
+#menubar{
+	width:950px;
+	height:30px;
+	background-color:#269fb2;
+	outline:1px solid red;	
+	padding:1px;	
+}
+#menubar div.lang{
+	margin-top:8px;
+}
+#menubar div.lang p{
+	margin-left:60px;
+	font-size:10px;
+	font-weight:500;
+}
+#menubar div.search{
+	background-image:url(images/search.png);
+	margin-top:2px;
+	outline:1px solid red;	
+}
+#searchL{
+	float:left;	
+	outline:0px solid red;	
+}
+#btnsearch{
+	width:35px;	
+	border:0 none;
+	background-image:url(images/btnsearch.png);
+	background-position:center;
+	background-color:transparent;
+	background-repeat:no-repeat;
+}
+#btnsearch:hover{
+	opacity:0.7;	
+	cursor:pointer;
+}
+#searchR{
+	margin-left:35px;	
+	text-align:right;
+}
+#txtsearch{
+	width:154px;	
+	height:22px;
+	background-color:transparent;
+	border:0 none;
+}
+  
+#menubar div.menu{
+	background-color:#269fb2;
+	outline:1px solid red;
+}
+#menubar div.menu ul{
+	list-style-type:none;
+	margin:0 auto;
+	height:25px;
+}
+#menubar div.menu li{
+	float:right;
+	border-right:15px solid transparent;
+}
+#menubar div.menu a{
+	color:#000;	
+	font-size:12px;
+}
+#menubar div.menu a:hover{
+	color:#FFF;
+}
+#menubar div.menu li:hover{
+	margin-top:5px;
+}
+
+/*-----------------------End Menu--------------------*/
+
+
+#contain{
+	width:950px;	
+	height:1505px;
+	background-image:url(images/bigflag-logo.jpg);
+	background-repeat:no-repeat;
+	outline:0px solid green;
+	padding:1px;
+	
+}
+ #child-container{
+	width:768px;
+	height:1335px;
+	border:0px solid black;
+	margin:0 auto;
+	margin-top:120px;
+}
+#child-container-top{
+	width:768px;	
+	height:5px;
+	border:0px solid black;
+}
+#child-container-body{
+	width:768px;	
+	height:1330px;
+	border:0px solid black;	
+	
+}
+/*----------------Left Slide----------------*/
+#child-container-body .slideL{
+	outline:1px solid red;	
+	height:1310px;
+	width:160px;
+	float:left;
+	margin-left:14px;
+	text-align:center;
+	margin-top:10px;
+}
+/*#child-container-body .slideL .slectpic, .login, .advertise, .Presidency, .messege, .othersite, .tools{
+ 	width:160px;	
+	height:164px;
+	outline:0px solid green;
+	margin-top:5px;
+}
+#child-container-body .slideL .login, .advertise, .Presidency, .messege, .othersite, .tools{
+	margin-top:18px;
+}*/
+
+/*----------------Middle Slide----------------*/
+#child-container-body .slideM{
+	outline:1px solid red;	
+	margin-left:178px;
+	margin-right:180px;
+	
+}
+/*----------------Right Slide----------------*/
+#child-container-body .slideR{
+	outline:1px solid black;	
+	height:1310px;
+	width:160px;
+	float:right;
+	margin-right:16px;
+	margin-top:10px;
+	
+}
+/*----------Footer-------------*/
+#copyright{
+	width:948px;
+	height:30px;
+	background-color:#26a1b1;
+	text-align:center;
+	padding:1px;
+}
+#copyright p{
+	font-size:11px;
+	margin-top:9px;
+	color:#FFF;
+}
